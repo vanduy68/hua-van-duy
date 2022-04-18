@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* reset css */
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 10%;
+}
+
+.logo img {
+    width: 89px;
+    height: 33.5px;
+}
+
+.container-lg {
+    width: 1100px;
+    margin: 20px auto;
+}
+
+.container-fluid {
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex: wrap;
+}
+
+.row>[class*="col-"] {}
+
+/* flex */
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-star {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+/* justify */
+.align-item-center {
+    align-items: center;
+}
+
+.align-item-start {
+    align-items: flex-start;
+}
+
+.align-item-end {
+    align-items: flex-end;
+}
+
+/* align-item */
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+/* align-self */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.33%;
+}
+
+.col-3 {
+    width: 25%%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* column */
